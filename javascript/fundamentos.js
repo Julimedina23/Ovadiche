@@ -21,3 +21,5 @@ document.write ("mensaje de interfaz de usuario")*/
 // declaracion 
 saludo = "hola"
 console.log(saludo)
+var saludo2 = "hola2"
+console.log =(saludo2)
