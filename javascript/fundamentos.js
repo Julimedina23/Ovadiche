@@ -11,8 +11,13 @@ varias lineas
 
 "use strict"
  /* metodos de interaccion */
-//salida
-alert("mensaje en ventana emergente")
-console.log("mensaje en consola")
-document.write ("mensaje de interfaz de usuario")
 
+//salida
+//alert("mensaje en ventana emergente")
+/*console.log("mensaje en consola")
+document.write ("mensaje de interfaz de usuario")*/
+
+/* variables */
+
+saludo = "hola"
+console.log(saludo)
