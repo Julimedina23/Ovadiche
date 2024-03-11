@@ -29,6 +29,6 @@ console.log(saludo3)
 const saludo4 = "hola4"
 console.log(saludo4)*/
 
-let saludo = "hola"
+saludo = "hola"
 console.log(saludo)
 
