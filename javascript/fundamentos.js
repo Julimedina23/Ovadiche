@@ -25,8 +25,11 @@ console.log(saludo)
 var saludo2 = "hola2"
 console.log =(saludo2)*/
 // las mas usadas
-let saludo3 = "hola3"
+/*let saludo3 = "hola3"
 console.log(saludo3)
 const saludo4 = "hola4"
-console.log(saludo4)
+console.log(saludo4)*/
+
+saludo = "hola"
+console.log(saludo)
 
