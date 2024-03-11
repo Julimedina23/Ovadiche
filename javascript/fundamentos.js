@@ -8,9 +8,11 @@ varias lineas
 
 alert("hola")
 
-"use strict"
-let miVariable = "este es un mensaje de prueba"
-console.log(miVariable)
 
+"use strict"
+ /* metodos de interaccion */
+//salida
+alert("mensaje en ventana emergente")
+console.log("mensaje en consola")
 
 
