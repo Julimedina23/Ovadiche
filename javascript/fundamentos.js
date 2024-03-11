@@ -19,16 +19,21 @@ document.write ("mensaje de interfaz de usuario")*/
 /* variables */
 // declaracion 
 // las menos usadas
-saludo = "hola"
+/* saludo = "hola"
 console.log(saludo)
 var saludo2 = "hola2"
-console.log =(saludo2)
+console.log =(saludo2) */
 // las mas usadas
 /*let saludo3 = "hola3"
 console.log(saludo3)
 const saludo4 = "hola4"
 console.log(saludo4)*/
 
-saludo = "hola"
-console.log(saludo)
+let variableGlobal = "soy variable global"
+console.log(variableGlobal)
+
+{
+    let variableLocal = "soy variable local"
+    console.log(variableLocal)
+}
 
