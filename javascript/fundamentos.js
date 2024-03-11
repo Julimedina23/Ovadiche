@@ -14,5 +14,5 @@ varias lineas
 //salida
 alert("mensaje en ventana emergente")
 console.log("mensaje en consola")
-
+document.write ("mensaje de interfaz de usuario")
 
