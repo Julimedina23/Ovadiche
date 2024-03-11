@@ -19,6 +19,5 @@ document.write ("mensaje de interfaz de usuario")*/
 
 /* variables */
 // declaracion 
-
-saludo1 = "hola"
-console.log(saludo1)
+saludo = "hola"
+console.log(saludo)
