@@ -19,7 +19,10 @@ document.write ("mensaje de interfaz de usuario")*/
 
 /* variables */
 // declaracion 
-saludo = "hola"
+/*saludo = "hola"
 console.log(saludo)
 var saludo2 = "hola2"
-console.log =(saludo2)
+console.log =(saludo2)*/
+let saludo3 = "hola3"
+console.log(saludo3)
+
