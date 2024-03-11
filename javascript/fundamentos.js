@@ -18,6 +18,7 @@ varias lineas
 document.write ("mensaje de interfaz de usuario")*/
 
 /* variables */
+// declaracion 
 
-saludo = "hola"
-console.log(saludo)
+saludo1 = "hola"
+console.log(saludo1)
