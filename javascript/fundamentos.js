@@ -9,7 +9,6 @@ varias lineas
 //alert("hola")
 
 
-"use strict"
  /* metodos de interaccion */
 
 //salida
@@ -30,6 +29,6 @@ console.log(saludo3)
 const saludo4 = "hola4"
 console.log(saludo4)*/
 
-saludo = "hola"
+let saludo = "hola"
 console.log(saludo)
 
