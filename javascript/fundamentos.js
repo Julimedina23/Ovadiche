@@ -10,7 +10,9 @@ varias lineas
 
 
  /* metodos de interaccion */
-
+//entrada
+/*let entrada = prompt()
+console.log(entrada)*/
 //salida
 //alert("mensaje en ventana emergente")
 /*console.log("mensaje en consola")
