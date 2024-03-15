@@ -1,3 +1,20 @@
-body {
+/* comentarios en css */
+body
+ {
     color:aqua;
 }
+/* tipos de selectores */
+p {
+    color:brown; 
+}
+ #p1 {
+    color:blueviolet
+ }
+
+ .texto-amarillo{
+    color:yellow
+ } 
+
+ *{ 
+    color:grey
+ }
