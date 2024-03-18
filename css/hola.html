@@ -2,40 +2,58 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="css.css" />
-    <title>Fondos</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>Colores</title>
     <style>
-      .color-fondo {
+      p {
+        border: 1px solid blue;
+        background-color: green;
+        color: azure;
+      }
+      .caja {
+        width: 100px;
         height: 100px;
-        background-color: yellow;
+        border: 1px solid black;
       }
-      .imagen-fondo {
-        height: 300px;
-        background-image: url('paisaje.jpg');
-        background-color: red;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+      .fondo-keyword {
+        background-color: tomato;
       }
-      .degradado1-fondo {
-        height: 200px;
-        background-image: linear-gradient(red, white);
+      .fondo-hex {
+        background-color: #8338ec;
       }
-      .degradado2-fondo {
-        height: 200px;
-        background-image: radial-gradient(red, white);
+      .fondo-hex-a {
+        background-color: #8338ec80;
       }
-      .degradado3-fondo {
-        height: 200px;
-        background-image: conic-gradient(red, white);
+      .fondo-rgb {
+        background-color: rgb(241, 7, 7);
+      }
+      .fondo-rgb-a {
+        background-color: rgb(241, 7, 7, 0.5);
+      }
+      .fondo-hsl {
+        background-color: hsl(147, 50%, 47%);
+      }
+      .fondo-hsl-a {
+        background-color: hsl(147, 50%, 47%, 0.5);
       }
     </style>
   </head>
   <body>
-    <div class="color-fondo"></div>
-    <div class="imagen-fondo"></div>
-    <div class="degradado1-fondo"></div>
-    <div class="degradado2-fondo"></div>
-    <div class="degradado3-fondo"></div>
+    <h1>Colores</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem dolorum
+      consequatur delectus explicabo, quaerat natus dignissimos facilis odit hic
+      possimus ea voluptatem sequi, temporibus, quia similique beatae amet id.
+      Quibusdam.
+    </p>
+    <div class="caja fondo-keyword"></div>
+    <br />
+    <div class="caja fondo-hex"></div>
+    <div class="caja fondo-rgb"></div>
+    <div class="caja fondo-hsl"></div>
+    <br />
+    <div class="caja fondo-hex-a"></div>
+    <div class="caja fondo-rgb-a"></div>
+    <div class="caja fondo-hsl-a"></div>
   </body>
 </html>
