@@ -8,8 +8,8 @@ document.write("hola")*/
 console.log(nombreUsuario) */
 "use strict"
 // Hacer un programa  que pida al usuarui un numero entero y muestre los valores desde uno hasta el mumero ingresado.
-const numero = parseInt(prompt(`ingrese un numero entero`));
-for ( let i = 1; <= numero; i++) {
+const numero = parseInt(prompt('ingrese un numero entero'));
+for ( let i = 1; i <= numero; i++) {
     console.log('valor en i: ', i)
-    document.write(i);
+    document.write(i)
 }
